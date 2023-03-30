@@ -1,9 +1,6 @@
 * {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-ul {
-    font-size: large;
-}
 body {
     margin: 0px;
 }
@@ -16,10 +13,7 @@ body {
     grid-row-gap: 0px;
     height: 100vh;
 }
-    
-.body { 
-    grid-area: 2 / 2 / 3 / 3;
-}
+
 .header { 
     grid-area: 1 / 2 / 2 / 2; 
     display: grid;
@@ -27,4 +21,23 @@ body {
 }
 .banner {
     grid-area: 1/2; 
+}
+    
+.body { 
+    grid-area: 2 / 2 / 3 / 3;
+}
+.year {
+    margin-top: 50px;
+}
+.issue {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-column-gap: 30px;
+    font-size: large;
+}
+.cover {
+    max-width: 200px;
+}
+.desc {
+    max-height: 260px;
 }
