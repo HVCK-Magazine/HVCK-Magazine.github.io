@@ -8,7 +8,7 @@ body {
 .parent {
     display: grid;
     grid-template-columns: minmax(30px, 1fr) 1fr minmax(20px, 1fr);
-    grid-template-rows: 30vh 1fr 5vh;
+    grid-template-rows: minmax(320px, 30vh) 1fr 5vh;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     height: 100vh;
