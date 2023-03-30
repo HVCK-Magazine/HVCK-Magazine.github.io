@@ -1,0 +1,30 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul {
+    font-size: large;
+}
+body {
+    margin: 0px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: 30vh 1fr 5vh;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 100vh;
+}
+    
+.body { 
+    grid-area: 2 / 2 / 3 / 3;
+}
+.header { 
+    grid-area: 1 / 2 / 2 / 2; 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.banner {
+    grid-area: 1/2; 
+}
